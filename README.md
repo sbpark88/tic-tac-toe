@@ -13,7 +13,7 @@ https://github.com/othneildrew/Best-README-Template 를 기본으로 하여 수�
   <h3 align="center">Starbucks</h3>
 
   <p align="center">
-    프로젝트 설명을 1줄로 간단하게 작성
+    Tic Tac Toe
     <!-- docs 가 필요시 주석을 해제하고 사용
     <br />
     <a href="https://github.com/othneildrew/project-repository"><strong>Explore the docs »</strong></a>
@@ -65,7 +65,7 @@ https://github.com/othneildrew/Best-README-Template 를 기본으로 하여 수�
 
 [![Product Name Screen Shot][product-screenshot]][product-deploy-url]
 
-프로젝트에 대한 상세한 설명을 작성한다. 보기 쉽게 설명과 함께 목록화 해서 작성하는 것을 권장.
+TypeScript 와 리액트로 만든 TicTacToe
 
 특징:
 - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -83,7 +83,8 @@ https://github.com/othneildrew/Best-README-Template 를 기본으로 하여 수�
 
 ![HTML5][HTML5 Icon]
 ![SCSS][SCSS Icon]
-![JavaScript][JavaScript Icon]
+![TypeScript][TypeScript Icon]
+![React][React Icon]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +112,7 @@ brew install npm
 
 1. Clone the repo
    ```shell
-   git clone https://github.com/sbpark88/project-repository.git
+   git clone https://github.com/sbpark88/tic-tac-toe.git
    ```
 2. Install NPM packages
    ```shell
@@ -177,6 +178,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 - [MDN - HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
 - [MDN - CSS](https://developer.mozilla.org/ko/docs/Web/CSS)
 - [MDN - JavaScript](https://developer.mozilla.org/ko/docs/Web/JavaScript)
+- [React](https://react.dev/blog/2023/03/16/introducing-react-dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
