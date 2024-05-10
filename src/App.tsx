@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./styles/App.scss";
+import Board from "./components/Board";
+import Info from "./components/Info";
+import { useGameHistory } from "./hooks/useGameHistory";
 
 function App() {
+  const history = useGameHistory();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`game ${history.winner ? "end" : ""}`}>
+      <h2>Tic Tac Toe</h2>
+      <Board {...history} />
+      <Info {...history} />
     </div>
   );
 }
