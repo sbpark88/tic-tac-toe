@@ -21,7 +21,7 @@ https://github.com/othneildrew/Best-README-Template 를 기본으로 하여 수�
     <br />
     <br />
     <!-- 아래 경로를 [product-deploy-url] 로 교체하고 문서 내 모든 `project-repository`를 수정한다 -->
-    <a href="javascript:void(0)">View Demo</a>
+    <a href="https://sb-tic-tac-toe.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/sbpark88/project-repository/projects">Project</a>
     ·
@@ -66,10 +66,6 @@ https://github.com/othneildrew/Best-README-Template 를 기본으로 하여 수�
 [![Product Name Screen Shot][product-screenshot]][product-deploy-url]
 
 TypeScript 와 리액트로 만든 TicTacToe
-
-특징:
-- Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-- Consequuntur iure mollitia natus nemo recusandae voluptates. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,11 +138,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] 로드맵 1
-- [ ] 로드맵 2
-- [ ] 로드맵 3
-    - [ ] 로드맵 3-1
-    - [ ] 로드맵 3-2
+- [X] 로드맵 1
+- [X] 로드맵 2
+- [X] 로드맵 3
+    - [X] 로드맵 3-1
+    - [X] 로드맵 3-2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +181,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- images 디렉토리의 `screenshot.png` 파일을 업데이트한다. 배포된 프로젝트 경로를 추가한다. -->
 [product-screenshot]:images/screenshot.png
-[product-deploy-url]:about:blank
+[product-deploy-url]:https://sb-tic-tac-toe.netlify.app
 
 
 <!--
