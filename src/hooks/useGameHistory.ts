@@ -59,10 +59,11 @@ export function useGameHistory() {
       const gameEnd = winner !== null;
       const alreadyChecked = currentHistory[squareIndex] !== null;
       if (alreadyChecked || gameEnd) return;
-      setGameHistory([
-        ...gameHistory,
-        currentHistory.toSpliced(squareIndex, 1, currentPlayer),
-      ]);
+      setGameHistory((prevState) => {
+        const _currentHistory = [...currentHistory];
+        _currentHistory[squareIndex] = currentPlayer;
+        return [...prevState, _currentHistory];
+      });
       setLastPosition(squareIndex);
       nextTurn();
     },
