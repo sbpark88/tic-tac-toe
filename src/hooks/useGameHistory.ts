@@ -67,7 +67,7 @@ export function useGameHistory() {
       setLastPosition(squareIndex);
       nextTurn();
     },
-    [currentPlayer, currentHistory, gameHistory, winner, isWinner, nextTurn],
+    [currentPlayer, currentHistory, winner, nextTurn],
   );
 
   useEffect(() => {
@@ -76,7 +76,7 @@ export function useGameHistory() {
       const previousPlayer = currentPlayer === "X" ? "O" : "X";
       setWinner(previousPlayer);
     }
-  }, [lastPosition]);
+  }, [lastPosition, currentPlayer, isWinner]);
 
   return {
     turn,

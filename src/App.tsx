@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles/App.scss";
 import Board from "./components/Board";
 import Info from "./components/Info";

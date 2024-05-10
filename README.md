@@ -138,11 +138,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [X] 로드맵 1
-- [X] 로드맵 2
-- [X] 로드맵 3
-    - [X] 로드맵 3-1
-    - [X] 로드맵 3-2
+- [X] 로직 구현
+- [X] 스타일링
+- [X] Netlify 배포
+    - [X] Netlify build error 해결
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
