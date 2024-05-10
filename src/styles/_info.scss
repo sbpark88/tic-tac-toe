@@ -1,0 +1,20 @@
+.game-info {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  button {
+    font-size: 18px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    background-color: #e6c08d;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+    &:first-child {
+      background-color: #ec6161;
+    }
+  }
+}
